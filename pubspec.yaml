@@ -1,0 +1,36 @@
+name: cbe_mobile_app
+description: "CBE Meeting Attendance - Android mobile app mirroring the web app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  http_parser: ^4.0.2
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  share_plus: ^10.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/cbe-logo.png
+    - assets/locales/en.json
+    - assets/locales/am.json
+    - assets/locales/om.json
+    - assets/locales/ti.json
